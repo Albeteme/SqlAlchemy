@@ -1,12 +1,12 @@
 # SqlAlchemy
 
-Climate Analysis and Exploration
-Use Python, SQLAlchemy, Pandas and Matplotlib to do climate analysis and data exploration of the database.
+*Climate Analysis and Exploration
+   -Use Python, SQLAlchemy, Pandas and Matplotlib to do climate analysis and data exploration of the database.
 
-Precipitation Analysis
-Design a query to retrieve the last 12 months of precipitation data.
+*Precipitation Analysis
+   -Design a query to retrieve the last 12 months of precipitation data.
 
-Select only the date and prcp values.
+*Select only the date and prcp values.
 
 Load the query results into a Pandas DataFrame and set the index to the date column.
 
