@@ -7,6 +7,8 @@ To begin, I used Python and SQLAlchemy to do basic climate analysis and data exp
 - Use SQLAlchemy create_engine to connect to your sqlite database.
 - Use SQLAlchemy automap_base() to reflect your tables into classes and save a reference to those classes called Station and Measurement.
 - Link Python to the database by creating an SQLAlchemy session.
+-![image](https://user-images.githubusercontent.com/75787486/122659918-9efb8180-d14a-11eb-8837-69af15347002.png)
+
 # Precipitation Analysis
 - Start by finding the most recent date in the data set.
 - Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data. Note you do not pass in the date as a variable to your query.
@@ -15,6 +17,8 @@ To begin, I used Python and SQLAlchemy to do basic climate analysis and data exp
 - Sort the DataFrame values by date.
 - Plot the results using the DataFrame plot method.
 - Use Pandas to print the summary statistics for the precipitation data.
+![image](https://user-images.githubusercontent.com/75787486/122659910-825f4980-d14a-11eb-9b08-0e3ebcd93206.png)
+
 # Station Analysis
 - Design a query to calculate the total number of stations in the dataset.
 - Design a query to find the most active stations (i.e. which stations have the most rows?).
@@ -25,6 +29,8 @@ To begin, I used Python and SQLAlchemy to do basic climate analysis and data exp
 - Filter by the station with the highest number of observations.
 - Query the last 12 months of temperature observation data for this station.
 - Plot the results as a histogram with bins=12.
+-![image](https://user-images.githubusercontent.com/75787486/122659913-88552a80-d14a-11eb-9beb-050548947c6b.png)
+
 # Step 2 - Climate App
 Now that I have completed your initial analysis, I designed a Flask API based on the queries that I have just developed.
 Use Flask to create the routes.
